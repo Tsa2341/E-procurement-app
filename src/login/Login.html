@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Procurement Draft: Login</title>
+  <link rel="stylesheet" href="./Login.css">
+
+  <!--- Text fonts import -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
+</head>
+<style>
+  html {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    scroll-behavior: smooth;
+  }
+</style>
+<body>
+
+  <main>
+    <div class="login_container">
+
+      <div class="login_container_left">
+        <img src="/assets/E-procurement-logo.png" alt="E-Procurement Logo">
+        <h1>E-Procurement</h1>
+        <p>
+          If you want to login by certificate, please register your certificate then login. If you don't need a certificate, you can login by One time password.(Certain tasks cannot be performed without a certificate.)
+        </p>
+        <div class="login_container_left_bottom"></div>
+        <img src="/assets/login-left-deco.svg" alt="left container decoration">
+      </div>
+
+      <div class="login_container_right">
+        <div>
+          <div>
+            <h1>Member Login </h1>
+            <p>Welcome Back</p>
+          </div>
+          <div>
+            <div class="text-input">
+              <img src="/assets/email-icon.svg" alt="Email Icon">
+              <input type="text" placeholder="Email Address">
+            </div>
+            <div class="text-input">
+              <img src="/assets/lock-icon.svg" alt="Email Icon">
+              <input type="password" placeholder="Password">
+            </div>
+            <div>
+              <button>Login</button>
+              <button class="button-outlined">Request OTP</button>
+            </div>
+          </div>
+          <div>
+            <div class="radio-input">
+              <input type="radio" name="login-radio">
+              <label>Certificates</label>
+            </div>
+            <div class="radio-input">
+              <input type="radio" name="login-radio">
+              <label>Cloud certificate</label>
+            </div>
+            <div class="radio-input">
+              <input type="radio" name="login-radio" checked>
+              <label>OTP</label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+</body>
+</html>
