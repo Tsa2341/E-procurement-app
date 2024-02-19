@@ -334,6 +334,7 @@ main .budget-table {
   color: #534D59;
   margin-right: 10px;
   padding-bottom: 40px;
+  width: max-content;
 }
 
 main .budget-table > table {
